@@ -1,0 +1,1 @@
+from .anagrams import reverse_text, reverse_word
