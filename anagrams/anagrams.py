@@ -16,6 +16,7 @@ def reverse_word(word):
 
 
 if __name__ == '__main__':
+
     cases = [
         ('abcd efgh', 'dcba hgfe'),
         ('akbcd efg!h', 'dcbka hgf!e'),
@@ -28,3 +29,4 @@ if __name__ == '__main__':
 
     for text, reversed_text in cases:
         assert reverse_text(text) == reversed_text
+

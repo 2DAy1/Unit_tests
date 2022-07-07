@@ -27,7 +27,7 @@ class AtypycalAnagramsTest(TestCase):
     def test_string(self):
         with self.assertRaises(ValueError) as e:
             anagrams.reverse_text(4)
-        self.assertEqual(('Вираз повинен бути типу string', e.exception.args[0]))
+        self.assertEqual('Вираз повинен бути типу string', e.exception.args[0])
 
 
 if __name__ == '__main__':
