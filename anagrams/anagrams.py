@@ -15,7 +15,7 @@ def reverse_word(word):
     )
 
 
-if __name__ == '__main__':
+if __name__ == '__main__':  # pragma: no cover
 
     cases = [
         ('abcd efgh', 'dcba hgfe'),
@@ -29,4 +29,3 @@ if __name__ == '__main__':
 
     for text, reversed_text in cases:
         assert reverse_text(text) == reversed_text
-
